@@ -13,7 +13,7 @@ header{
 }
 header.home{
     position: relative;
-    height: 100vh;
+    height: 100vmin;
    background-image: url(../images/background.png);
     background-size: cover;
 }
@@ -88,7 +88,7 @@ header.contact{
     background-image: url(../images/bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 70vmin;
 }
 .txt ul {
     display: flex;
@@ -613,7 +613,12 @@ footer img,  .app-store img, .tick-icon {
         margin: 10px auto;
         max-width: 400px;
     }
-    
+    header.home{
+        height: 100vmax;
+    }
+    .header.contact{
+        height: 70vmax;
+    }
     .card7{
         min-width: 230px;
     }
