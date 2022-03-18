@@ -1,10 +1,10 @@
-let ham = document.querySelector('#ham')
-let hhh = document.getElementById('hhh')
+// let ham = document.querySelector('#ham')
+// let hhh = document.getElementById('hhh')
 
-ham.addEventListener('click',()=>{
-    console.log(hhh)
-   hhh.style.transform = 'translateX(0)'
-})
+// ham.addEventListener('click',()=>{
+//     console.log(hhh)
+//    hhh.style.transform = 'translateX(0)'
+// })
    
    
    let inputs = document.querySelectorAll('.formdata')

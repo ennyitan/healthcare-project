@@ -63,6 +63,9 @@
     font-size: 24px;
     gap: 20px;
 }
+.notifyimg a,.bbb{
+    text-decoration: none;
+}
 .homelink{
     display: none !important; 
 }

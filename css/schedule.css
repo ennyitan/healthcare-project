@@ -49,6 +49,9 @@
     font-size: 24px;
     gap: 20px;
 }
+.notifyimg a,.bbb{
+    text-decoration: none;
+}
 .bbb{
     color: black;
 }
