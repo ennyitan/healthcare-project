@@ -613,12 +613,7 @@ footer img,  .app-store img, .tick-icon {
         margin: 10px auto;
         max-width: 400px;
     }
-    header.home{
-        height: 100vmax;
-    }
-    .header.contact{
-        height: 70vmax;
-    }
+  
     .card7{
         min-width: 230px;
     }
@@ -642,6 +637,12 @@ footer img,  .app-store img, .tick-icon {
     header .logo {
         width: 30%;
         min-width: 120px;
+    }
+    header.home{
+        height: 100vmax;
+    }
+    header.contact{
+        height: 70vmax;
     }
     .headerDocImg{
         opacity: 0.3;
