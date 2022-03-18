@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blu{
+    color: rgba(64, 163, 248, 1);
+}
+.wht{
+    color: rgba(255, 255, 255, 1);
+}
+.wht_bg{
+    background-color:rgba(255, 255, 255, 1);
+}
+.gr_nav{
+    color: rgba(105, 105, 105, 1);
+}
+.blu_bg{
+    background-color: rgba(64, 163, 248, 1);
+}
+.gr1{
+    color: rgba(117, 117, 117, 0.46);
+}
+.f_bg_bl{
+    background-image: linear-gradient(90.98deg, #40A3F8 0.91%, #2B59FF 99.26%);
+}
+.c_mg_bt{
+    margin-bottom: 7%;
+}
+.c_mg_tp{
+    margin-top: 7%;
+}
+.med_drk{
+    color: rgba(100, 100, 100, 1);
+}
+.black{
+    color: rgba(50, 50, 50, 1);
+}
+.inp_col{
+    background-color: #E5E5E5;
+}
+.shadow{
+    color: rgba(0, 0, 0, 0.05);
+}
+h1{
+    font-size: 48px;
+    font-family: 'roboto','poppins';
+}
+h2{
+    font-size: 42px;
+    font-family: 'roboto','poppins';
+    line-height: 49.22px;
+    /* text-align: center; */
+}
+.txt_align{
+    text-align: center;
+}
+.lil_p{
+    font-size: 20px;
+    line-height: 32px;
+}
+.lil_p_2{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 20px;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+.p_type3{
+    font-size: 18px;
+    color: #3D3D3FB2;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.p_type4{
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+    line-height: 22px;
+    margin-top: 20px;
+}
+.p_type4_col{
+    color: rgba(153, 153, 153, 1);
+}
+.black{
+    color: rgba(61, 61, 63, 1);
+}
+.p_Wid{
+    width: 514px;
+    margin: auto;
+    margin-top: 20px;
+}
+.p_Widd{
+    width: 480px;
+    margin: auto;
+    margin-top: 20px;
+}
+h3{
+    Font-size: 40px;
+    line-height: 47px;
+    color: white;
+}
+h4{
+    font-size: 30px;
+    color: white;
+}
+.ppl{
+    background-color: #E5E5E5;
+    padding: 20px;
+    border-radius: 5px;
+}
+.b{
+   background-color: rgb(176, 208, 236);
+}
+.color{
+    color: #E5E5E5;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.font{
+    font-size: 30px;
+    font-weight: 800;
+}
+.font_size{
+    font-size: 20px;
+}
+.c_in{
+    margin-bottom: 9%;
+}
+.c_int{
+    margin-top: 9%;
+}
+.f_w1{
+    font-weight: 700;
+}
+.font11{
+    font-size: 30px;
+}
+.dash_c{
+    color: #8692A6;
+}
+.background-color{
+    background-image: linear-gradient(to bottom right,rgb(230, 242, 252),rgb(230, 245, 253),#fff,rgba(229, 243, 250, 0.65), rgb(217, 233, 245));
+}
+.faRed{
+    color: red;
+}
+.faGreen{
+    color: green;
+}
+.fs{
+    font-weight: bolder;
+}
+.ff{font-family: Poppins;}
+

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style_0.css" />
+    <link rel="stylesheet" href="css/dash.css" />
+    <link rel="shortcut icon" href="images/Ellipse 157.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="body_container">
+      <!-- THE SIDE DIV -->
+      <div class="aside" id="aside">
+        <div class="left_top">
+          <div class="lm">
+            <img src="images/logo-icon.svg" alt="" /><span
+              class="spa health wht"
+              ><a href="homepage.html" class="wht">Health Lite</a></span
+            >
+          </div>
+        </div>
+        <div class="left_middle">
+          <div class="lm active">
+            <img src="images/dashboard-icon.svg" alt="" /><span class="spa wht"
+              >Dashboard</span
+            >
+          </div>
+          <div class="lm">
+            <img src="images/waiting-room.svg" alt="" /><span class="spa wht"
+              >Waiting Room</span
+            >
+          </div>
+          <div class="lm lm_sch">
+            <img src="images/schedule.svg" alt="" /><span class="spa wht"
+              ><a href="schedule.html" class="wht">Schedule</a></span
+            >
+          </div>
+          <div class="lm">
+            <img src="images/patients.svg" alt="" /><span class="spa wht"
+              >My Patients</span
+            >
+          </div>
+          <div class="lm">
+            <img src="images/notes.svg" alt="" /><span class="spa wht"
+              >Notes</span
+            >
+          </div>
+          <div class="lm">
+            <img src="images/chats.svg" alt="" /><span class="spa wht"
+              >Chats</span
+            >
+          </div>
+        </div>
+        <div class="left_bottom">
+          <div class="lm">
+            <img src="images/my-profile.svg" alt="" /><span class="spa wht"
+              >My Profile</span
+            >
+          </div>
+          <div class="lm">
+            <img src="images/settings.svg" alt="" /><span class="spa lm_set wht"
+              >Setting</span
+            >
+          </div>
+          <!-- <butto><img src="images/Hamburger_icon.svg.png" alt=""></butto> -->
+        </div>
+      </div>
+      <!-- END OF THE SIDE DIV -->
+
+      <!-- THE MAIN DIV -->
+      <div class="main_cont">
+        <div class="notification wht_bg">
+          <button class="menubtn hide" id="menubtn"><i class="fa fa-bars"></i></button>
+            <div class="notifyimg">
+              <a href="homepage.html"><i class="fa fa-home homelink"></i></a>
+            <img src="images/Group 19277.svg" alt="">
+            <img class="eclipseimg" src="images/Ellipse 2.svg" alt="">
+            </div>
+        </div>
+        <div class="main">
+          <!-- LEFT SIDE OF THE MAIN DIV -->
+          <div class="main_left">
+            <!-- TOP SIDE -->
+            <div class="main_left_top">
+              <div class="main_left_top_bludiv">
+                <div class="main_left_top_bludiv_txt">
+                  <p class="font11 wht">Welcome, <span class="f_w1"> Dr. Fayemi David</span></p>
+                  <p class="color">
+                    You have <span id="schedule_appoint">0 </span> new appointment and there are
+                    currently <span id="waiting">0 </span> patients in the waiting room. Have
+                    a nice day at work!
+                  </p>
+                  <button class="btn wht" type="submit">
+                    <i class="wh fa fa-eye" aria-hidden="true"></i> &nbsp;
+                    View your appointments
+                  </button>
+                  <button class="btn wht" type="submit">
+                    Go to the waiting room &nbsp;<i class="wh fa fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="char_img">
+                  <img class="char" src="images/character 2.svg" alt=""/>
+                </div>
+              </div>
+            </div>
+            <!-- END OF TOP SIDE -->
+
+            <!-- MIDDLE SIDE -->
+            <div class="main_mid">
+              <div class="total_patients wht_bg">
+                <div class="alltime">
+                  <img src="images/Group 11845.svg" alt="" />
+                  <div class="path9">
+                    <p class="f_w1">All Time</p>
+                    <img class="p9" src="images/Path 9.svg" alt="" />
+                  </div>
+                </div>
+                <p class="font" id="total">0</p>
+                <p class="c_mg_bt dash_c">Total Patients</p>
+                <p><i class="fa fa-arrow-down faRed" aria-hidden="true"></i>&nbsp; 5% less than last month</p>
+              </div>
+              <div class="appointments_div wht_bg">
+                <div class="alltime">
+                  <img src="images/Group 11850.png" alt="" />
+                  <div class="path9">
+                    <p class="f_w1">Today</p>
+                    <img class="p9" src="images/Path 9.svg" alt="" />
+                  </div>
+                </div>
+                <p class= "font" id="appoint">0</p>
+                <p class="c_mg_bt dash_c">Appointments</p>
+                <p><i class="fa fa-arrow-up faGreen"></i> &nbsp; 15% more than last yesterday</p>
+              </div>
+              <div class="waiting_room_div wht_bg">
+                <div class="alltime">
+                  <img src="images/Group 30799.svg" alt="" />
+                  <div class="path9">
+                    <p class="f_w1">Today</p>
+                    <img class="p9" src="images/Path 9.svg" alt="" />
+                  </div>
+                </div>
+                <p class="font" id="wait">0</p>
+                <p class="c_mg_bt dash_c">Waiting room</p>
+                <p><i class="fa fa-arrow-up faGreen"></i> &nbsp;35% less than last yesterday</p>
+              </div>
+            </div>
+            <!-- END OF MIDDLE SIDE -->
+
+            <!-- BOTTOM SIDE WITH THE API -->
+            <div class="main_bottom">
+              <div class="main_bottom_cont wht_bg">
+                <div class="the_txt">
+                  <p class="txt_active f_w1 font_size">Your next patients</p>
+                  <p class="blu f_w1">View All &rightarrow;</p>
+                </div>
+                <div class="people" id="appointment">
+                 
+                </div>
+              </div>
+            </div>
+            <div class="statistics_img">
+                <img class="stat_img" src="images/Frame 30752.svg" alt="">
+            </div>
+          </div>
+
+          
+          <!-- THE MAIN RIGHT SIDE -->
+          <div class="main_right">
+            <div class="calender_img">
+                <img class="cal_img" src="images/Frame 30748.svg" alt="">
+            </div>
+            <div class="gender_img c_mg_tp">
+                <img class="gen_img" src="images/Frame 30750.svg" alt="">
+            </div>
+
+            <!-- api for activities -->
+           <div class="explore wht_bg">
+               <div class="activis">
+                   <p class="activis_after f_w1 font_size">Activities</p>
+                   <img src="images/Frame (1).svg" alt="">
+               </div>
+               <div class="inter" id="inter">
+                   
+                </div>
+            </div>
+           </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/aedd297eaa.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
