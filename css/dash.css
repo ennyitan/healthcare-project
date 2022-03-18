@@ -66,6 +66,9 @@
 .homelink{
     display: none !important; 
 }
+.bbb{
+    color: black;
+}
 .menubtn {
     border: 0;
     padding: 5px 9px;

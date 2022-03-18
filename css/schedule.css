@@ -49,6 +49,9 @@
     font-size: 24px;
     gap: 20px;
 }
+.bbb{
+    color: black;
+}
 .homelink{
     display: none !important; 
 }
