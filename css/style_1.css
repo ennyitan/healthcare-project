@@ -275,7 +275,7 @@ form {
 /* homepage section 3 */
 .section3{
     display: flex;
-    padding: 6% 6% 6% 3%;
+    padding: 6% 6% 6% 6%;
    align-items: center;
   
    justify-content: space-between;
